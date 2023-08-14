@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vmax;    
+    background-color: purple;
+    flex-wrap: wrap;
+
+
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 100vh !important;
+    height: 20vh;
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    padding: 0.3rem;
+    background-color: rgba(255, 192, 203, 0.822);
+    border-radius: 10px;
+}
+h1{
+    margin: 0.5rem;
+}
+main{
+    min-height: 75vh !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+section{
+    min-width: 100vh;
+    min-height: 60vh;
+    border-radius: 5px;
+
+    background-color: palevioletred;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.card{
+    width: 15rem !important;
+    height: 25rem !important;
+    margin: 1rem;
+    border-radius: 5px;
+    background-color: plum !important;
+    display: flex;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center;
+    justify-content: space-around;
+    font-size: larger;
+}
+.card img{
+    width: 17rem !important;
+    height: 17rem !important;
+    object-fit: contain;
+}
+#containerCartas{
+    min-width: 100%;
+    min-height: auto;
+    background-color: plum !important;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer{
+    background-color: blueviolet;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}

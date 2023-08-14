@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(238, 238, 95);
+
+}
+header{
+    background-color: orange;
+    height: 10vh;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(250, 202, 114);
+    padding: 0.3rem;
+    border-radius: 10px;
+    margin: 1rem;
+}
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+section{
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    align-items: center;
+    gap: 1rem;
+}
+#cuadrado1{
+    width: 8rem;
+    height: 8rem;
+    background-color: gray;
+    margin-right: 1rem;
+}
+#cuadrado2{
+    width: 8rem;
+    height: 8rem;
+    background-color: gray;
+    margin-right: 1rem;
+}
+#cuadrado3{
+    width: 12rem;
+    height: 12rem;
+    background-color: gray;
+    margin-right: 1rem;
+
+}
+section{
+    width: 15rem;
+    height: 17rem;
+    background-color: rgb(161, 161, 218); 
+    margin: 5px;
+}
+button{
+    width: 5rem;
+    background-color: blueviolet;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+input{
+    width: 3rem;
+}
+
+  form{
+    width: 15rem;
+    height: 17rem;
+    background-color: rgb(161, 161, 218); 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  input{
+    width: 6rem;
+    margin: 5px;
+    background-color: aqua;
+  }
+  table, tr, th, td{
+    border-collapse: collapse;
+    border: solid 1px black;
+  }
